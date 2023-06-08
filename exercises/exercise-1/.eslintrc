@@ -1,0 +1,52 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 10,
+    "sourceType": "module"
+  },
+  "extends": ["plugin:import/recommended", "plugin:import/typescript", "prettier"],
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "plugins": ["@typescript-eslint/eslint-plugin", "simple-import-sort", "import"],
+  "rules": {
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/dot-notation": "off",
+    "@typescript-eslint/lines-between-class-members": "off",
+    "@typescript-eslint/naming-convention": "off",
+    "@typescript-eslint/no-shadow": "off",
+    "@typescript-eslint/no-use-before-define": "off",
+    "arrow-body-style": "off",
+    "consistent-return": "off",
+    "eqeqeq": "off",
+    "guard-for-in": "off",
+    "import/export": "off",
+    "import/first": "error",
+    "import/newline-after-import": "error",
+    "import/no-duplicates": "error",
+    "import/no-extraneous-dependencies": "off",
+    "import/no-named-as-default": "off",
+    "import/no-named-as-default-member": "off",
+    "import/no-unresolved": "off",
+    "import/prefer-default-export": "off",
+    "jsx-a11y/no-autofocus": "off",
+    "no-alert": "off",
+    "no-bitwise": "off",
+    "no-console": "off",
+    "no-param-reassign": "off",
+    "no-plusplus": "off",
+    "no-redeclare": "off",
+    "no-restricted-syntax": "off",
+    "no-shadow": "off",
+    "no-underscore-dangle": "off",
+    "operator-assignment": "off",
+    "prefer-destructuring": "off",
+    "prefer-object-spread": "off",
+    "simple-import-sort/exports": "error",
+    "simple-import-sort/imports": "error",
+    "spaced-comment": "off"
+  }
+}
