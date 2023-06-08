@@ -11,4 +11,3 @@ Tạo 1 dự án NodeJS với tên `exercise-1`:
 5. Cấu hình để chạy chương trình bằng dòng lệnh `pnpm start`
 
 6. Optional: Tổ chức các file theo folder theo chức năng để dễ hiểu, dễ maintain
-
